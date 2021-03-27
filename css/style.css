@@ -11,6 +11,7 @@ body{
 }
 .navbar-nav { 
    margin-left: auto; 
+   background-color: black;
 } 
 
 .navbar-nav > li{
@@ -32,37 +33,62 @@ body{
    cursor: pointer;
 }
 h3{
-   font-family: 'Nunito', sans-serif;
+   font-family: 'Goldman', cursive;
    color: white;
    font-size: x-large;
 }
 h2{
-   font-family: 'Anton', sans-serif;
+   font-family:'Goldman', cursive;
+   font-weight: 700;
+   font-style: italic;
    color:red;
    font-size: xx-large;
+   padding-bottom: 0;
 }
 h1{
-   font-family: 'Play', sans-serif;
-   color: whitesmoke;
-   font-size: xx-large;
-   font-weight: 100px;
+  font-family:'Goldman', cursive;
+   font-weight: 700;
+   font-style: italic;  
+   color: white;
+   font-size: 40px;
+ 
 }
 h4{
    color:white;
 }
+h5{
+  font-family:'Goldman', cursive;
+  font-weight: 700;
+  font-style: italic;  
+  font-size:small;
+  color:red;
+}
 p{
    color: white;
+}
+
+.heading{
+  line-height: 0.01;
+  padding: 0;
 }
 .logo{
   
 }
+.main{
+
+  display: flex;
+
+}
 
 .content{
   
-   margin-top: 20px;
+   margin-top: 120px;
    margin-bottom: 50px;
    padding-top: 40px;
    padding-bottom: 40px;
+   width: 100%;
+   height: 600px;
+   text-align: center;
 }
 .centered {
   display: flex;
@@ -74,8 +100,9 @@ p{
   
   position: absolute;
   top: 40%;
-  left: 40%;
+  left: 30%;
   margin: -25px 0 0 -25px; 
+  text-align: center;
 }
 
 
@@ -228,3 +255,7 @@ p{
      transform: rotate(360deg);
    }
  }
+
+
+
+ 
